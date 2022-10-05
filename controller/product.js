@@ -2,7 +2,7 @@ const InventryModel = require('../models/inventory')
 
 const returner = require('../middleware/returner')
 const jwt = require('jsonwebtoken')
-const Joi = require('joi')
+const Joi = require('joi');
 
 exports.UserCreateOrder = async (req, res, next) => {
 
